@@ -1,0 +1,6 @@
+{
+	"ImportPath": "github.com/elph/luminati",
+	"GoVersion": "go1.6",
+	"GodepVersion": "v74",
+	"Deps": []
+}
