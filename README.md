@@ -19,6 +19,14 @@ Just import like any other go library
 import "github.com/elph/luminati"
 ```
 
+### Using it
+
+``` 
+c := luminati.NewClient("luminati-user", "luminati-pwd", "luminati-host", 989898)
+request, _ := http.NewRequest("GET", "http://www.google.com", nil)
+resp, err := c.Do(request)
+```
+
 ## Running the tests
 
 ```
